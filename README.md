@@ -7,7 +7,7 @@
 - [标准工程文件格式](./standerd_form/)  
 
 ## problem
-> -[文件](./standerd_form/)CMake文档存在问题  
+> -[此文件](./standerd_form/)CMake文档存在问题  
 > ```
 > /usr/bin/ld: cannot find -lLIBPATHS-NOTFOUND/bin  
 > collect2: error: ld returned 1 exit status
@@ -36,7 +36,7 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} ${LOCAL_W_FLAGS} ${LOCAL_C_FLAGS} -std=c
 #设置链接的库
 link_directories(${CMAKE_CURRENT_LIST_DIR}/lib/)
 #设置链接的库
-link_libraries(z ssl crypto boost_system boost_program_options boost_filesystem boost_date_time boost_context boost_coroutine boost_chrono boost_log boost_thread boost_log_setup boost_regex boost_atomic pthread )
+link_libraries(xxx)
 
 #生成目标文件为可执行文件
 add_executable(SDK ${SRC_LIST_ALL})
