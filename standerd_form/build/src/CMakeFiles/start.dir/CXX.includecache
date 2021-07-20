@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/add.h
+
+../include/sub.h
+
+/ws/cmake_examples/standerd_form/src/main.cpp
+iostream
+-
+add.h
+/ws/cmake_examples/standerd_form/src/add.h
+sub.h
+/ws/cmake_examples/standerd_form/src/sub.h
+

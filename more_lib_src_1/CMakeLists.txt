@@ -1,0 +1,6 @@
+project(Test3)
+include_directories(./add ./sub)
+aux_source_directory(./ DIR_SRCS)
+aux_source_directory(./add DIR_SRCS1)
+aux_source_directory(./sub DIR_SRCS2)
+add_executable(start ${DIR_SRCS} ${DIR_SRCS1} ${DIR_SRCS2})

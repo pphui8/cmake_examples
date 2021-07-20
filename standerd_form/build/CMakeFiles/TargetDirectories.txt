@@ -1,0 +1,7 @@
+/ws/cmake_examples/standerd_form/build/CMakeFiles/edit_cache.dir
+/ws/cmake_examples/standerd_form/build/CMakeFiles/rebuild_cache.dir
+/ws/cmake_examples/standerd_form/build/src/CMakeFiles/edit_cache.dir
+/ws/cmake_examples/standerd_form/build/src/CMakeFiles/rebuild_cache.dir
+/ws/cmake_examples/standerd_form/build/src/CMakeFiles/start.dir
+/ws/cmake_examples/standerd_form/build/src/CMakeFiles/shared_lib.dir
+/ws/cmake_examples/standerd_form/build/src/CMakeFiles/static_lib.dir
