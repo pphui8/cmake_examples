@@ -2,9 +2,17 @@
 
 - [单源文件](./single_source_file/)  
 - [多源文件](./more_source_file/)  
-- [多源文件及多lib文件演示1](./more_lib_src_1/)  
-- [多源文件及多lib文件演示2](./more_lib_src_2/)  
-- [标准工程文件格式](./standerd_example/)  
+- [多源文件简单链接](./more_lib_src_1/)  
+- [多源文件生成库链接](./more_lib_src_2/)  
+- [标准工程文件格式](./standerd_form/)  
+
+## problem
+> -[文件](./standerd_form/)CMake文档存在问题  
+> ```
+> /usr/bin/ld: cannot find -lLIBPATHS-NOTFOUND/bin  
+> collect2: error: ld returned 1 exit status
+> ```
+> 应该是没有先生成库文件的问题?
 
 ### 标准项目cmake内容
 ```cmake
