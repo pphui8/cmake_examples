@@ -7,7 +7,7 @@
 - [标准工程文件格式](./standerd_form/)  
 
 ## problem
-> 此文件[标准工程文件](./standerd_form/)CMake文档存在问题  
+> [标准工程文件](./standerd_form/)CMake文档存在问题  
 > ```
 > /usr/bin/ld: cannot find -lLIBPATHS-NOTFOUND/bin  
 > collect2: error: ld returned 1 exit status
